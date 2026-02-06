@@ -123,11 +123,26 @@ Skills with active SkillBond stakes get **discounted premiums** — they've alre
 - **Instant settlement** — sub-second on Base
 - **Native to Base** — Circle's home L2
 
+## Deployed Contracts (Base Sepolia)
+
+All contracts are live on Base Sepolia testnet:
+
+| Contract | Address |
+|----------|---------|
+| ValidatorRegistry | [`0x915a5f62a80C99744809404796542Ec9450f7C5F`](https://sepolia.basescan.org/address/0x915a5f62a80C99744809404796542Ec9450f7C5F) |
+| InsurancePoolRegistry | [`0xf457B0d5b20bBcce17c15d59ad419b81046268Ff`](https://sepolia.basescan.org/address/0xf457B0d5b20bBcce17c15d59ad419b81046268Ff) |
+| ClaimsProcessor | [`0xBC9D87ABE382Cf98D8F731a8FE9D39EaABb506f3`](https://sepolia.basescan.org/address/0xBC9D87ABE382Cf98D8F731a8FE9D39EaABb506f3) |
+| PolicyManager | [`0xe3398E6CB1024130DBb31572e235A069a5987749`](https://sepolia.basescan.org/address/0xe3398E6CB1024130DBb31572e235A069a5987749) |
+
+- **Network:** Base Sepolia (Chain ID: 84532)
+- **USDC:** [`0x036CbD53842c5426634e7929541eC2318f3dCF7e`](https://sepolia.basescan.org/address/0x036CbD53842c5426634e7929541eC2318f3dCF7e)
+- **Deployer:** [`0x2b70f768029110d9CD2E3Ae7c2549D5F22CFD31d`](https://sepolia.basescan.org/address/0x2b70f768029110d9CD2E3Ae7c2549D5F22CFD31d)
+
 ## Tech Stack
 
-- Solidity ^0.8.19
+- Solidity ^0.8.20
 - Hardhat
-- OpenZeppelin
+- OpenZeppelin 5.x
 - Base (Ethereum L2)
 - USDC
 
